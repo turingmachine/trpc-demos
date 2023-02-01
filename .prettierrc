@@ -1,0 +1,13 @@
+{
+  "overrides": [
+    {
+      "files": "**/*.{ts,tsx,js,jsx,css,html,md,yaml,json}",
+      "options": {
+        "singleQuote": true,
+        "semi": false,
+        "trailingComma": "es5",
+        "arrowParens": "avoid"
+      }
+    }
+  ]
+}
