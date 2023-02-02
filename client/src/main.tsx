@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { DemoTwo } from './DemoOne'
+import { DemoOne } from './DemoOne'
+import { DemoTwo } from './DemoTwo'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>

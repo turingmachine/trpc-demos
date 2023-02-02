@@ -8,7 +8,7 @@ export const trpc = createTRPCReact<AppRouter>()
 
 const Greeting = () => {
   const greeting = trpc.getGreeting.useQuery('Sibe Siech')
-  return <div>{greeting.data}</div>
+  return <h1>{greeting.data}</h1>
 }
 
 export const DemoTwo = () => {
