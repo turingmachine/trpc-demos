@@ -1,8 +1,8 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { httpBatchLink } from '@trpc/client'
 import { createTRPCProxyClient } from '@trpc/react-query'
-import { AppRouter } from '@examples/minimal-react-server'
 
+import { AppRouter } from '@examples/minimal-react-server'
 export const trpc = createTRPCProxyClient<AppRouter>({
   links: [
     httpBatchLink({
