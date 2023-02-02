@@ -11,7 +11,7 @@ export const trpc = createTRPCProxyClient<AppRouter>({
   ],
 })
 
-export const DemoOne = () => {
+export const DemoSimple = () => {
   const [greeting, setGreeting] = useState('')
 
   useEffect(() => {

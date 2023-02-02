@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { DemoOne } from './DemoOne'
-import { DemoTwo } from './DemoTwo'
+import { DemoSimple } from './DemoSimple'
+import { DemoUseQuery } from './DemoUseQuery'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <DemoTwo />
+    <DemoSimple />
   </React.StrictMode>
 )

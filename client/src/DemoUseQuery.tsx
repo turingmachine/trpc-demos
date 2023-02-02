@@ -11,7 +11,7 @@ const Greeting = () => {
   return <h1>{greeting.data}</h1>
 }
 
-export const DemoTwo = () => {
+export const DemoUseQuery = () => {
   const [queryClient] = useState(() => new QueryClient())
   const [trpcClient] = useState(() =>
     trpc.createClient({
